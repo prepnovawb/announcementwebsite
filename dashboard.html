@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PREPNOVA - Dashboard</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#cae2ea,#e5e8ec);
+    padding:40px;
+}
+
+/* Header */
+.header{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.header h1{
+    font-size:50px;
+    color:#1a0101;
+}
+
+.page-no{
+    text-align:center;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:5px;
+    color:#333;
+}
+
+/* SECTION BOX */
+.section{
+    margin-top:30px;
+}
+
+/* NOTICE BOARD */
+.notice-board{
+    background:rgb(239,233,196);
+    padding:25px;
+    border-radius:25px;
+    min-height:180px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    position:relative;
+}
+
+.notice-title{
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.notice-space{
+    width:100%;
+    min-height:120px;
+    background:white;
+    border-radius:15px;
+    padding:15px;
+    outline:none;
+}
+
+/* COURSES */
+.card-container{
+    margin-top:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:rgb(239,233,196);
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    text-align:center;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.update-box{
+    margin-top:10px;
+    background:white;
+    border-radius:10px;
+    padding:10px;
+    font-weight:normal;
+    font-size:14px;
+    color:#444;
+}
+
+/* ROADMAP */
+.roadmap{
+    margin-top:30px;
+    background:rgb(239,233,196);
+    padding:25px;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.roadmap-title{
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.roadmap-space{
+    min-height:150px;
+    background:white;
+    border-radius:15px;
+    padding:15px;
+}
+
+/* BUTTONS */
+.btns{
+    display:flex;
+    justify-content:space-between;
+    margin-top:40px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:12px;
+    background:#d4d006f3;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+    background:#c5c105;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+    <h1>📘 PREPNOVA STUDY ZONE</h1>
+</div>
+
+<div class="page-no">Page 3 / 4</div>
+
+<!-- NOTICE BOARD -->
+<div class="section">
+    <div class="notice-board">
+        <div class="notice-title">📢 Notice Board</div>
+        <div class="notice-space" contenteditable="true">
+            latest announcements comming soon...
+        </div>
+    </div>
+</div>
+
+<!-- COURSES -->
+<div class="section">
+    <div class="notice-title" style="margin-top:20px;">📚 Courses Updates</div>
+
+    <div class="card-container">
+
+        <div class="card">
+            Class 11
+            <div class="update-box"> updates soon...</div>
+        </div>
+
+        <div class="card">
+            Class 12
+            <div class="update-box"> updates soon...</div>
+        </div>
+
+        <div class="card">
+            Dropper
+            <div class="update-box"> updates soon...</div>
+        </div>
+
+    </div>
+</div>
+
+<!-- ROADMAP -->
+<div class="section">
+    <div class="roadmap">
+        <div class="roadmap-title">🧭 Roadmap & Planning</div>
+        <div class="roadmap-space" contenteditable="true">
+             preparation roadmap, schedule, and strategies coming soon...
+        </div>
+    </div>
+</div>
+
+<!-- BUTTONS -->
+<div class="btns">
+
+    <button onclick="window.location.href='exams.html'">
+        ⬅ Back
+    </button>
+
+    <button onclick="window.location.href='contact.html'">
+        Next ➡
+    </button>
+
+</div>
+
+</body>
+</html>

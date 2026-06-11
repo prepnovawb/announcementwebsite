@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PREPNOVA - Exams</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#cae2ea,#e5e8ec);
+    padding:40px;
+}
+
+/* Header */
+.header{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.header h1{
+    font-size:50px;
+    color:#1a0101;
+}
+
+.header p{
+    font-size:18px;
+    color:#444;
+}
+
+/* Page counter */
+.page-no{
+    text-align:center;
+    margin-top:10px;
+    font-size:18px;
+    font-weight:bold;
+    color:#333;
+}
+
+/* Grid cards */
+.card-container{
+    margin-top:30px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:rgb(239,233,196);
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.left{
+    font-size:20px;
+    font-weight:bold;
+    color:#222;
+}
+
+.right{
+    font-size:14px;
+    color:#555;
+    text-align:right;
+    max-width:150px;
+}
+
+/* Buttons */
+.btns{
+    display:flex;
+    justify-content:space-between;
+    margin-top:40px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:12px;
+    background:#d4d006f3;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+    background:#c5c105;
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+    <h1>📚 Competitive Exams</h1>
+      <center><p>View updates and guidance of your selected exams</p></center>
+</div>
+
+<div class="page-no">
+    Page 2 / 4
+</div>
+
+<div class="card-container">
+
+    <div class="card">
+        <div class="left">WBJEE</div>
+        <div class="right">Updates Coming Soon</div>
+    </div>
+
+    <div class="card">
+        <div class="left">JEE MAINS</div>
+        <div class="right">Updates Coming Soon</div>
+    </div>
+
+    <div class="card">
+        <div class="left">NEET</div>
+        <div class="right">Updates Coming Soon</div>
+    </div>
+
+    <div class="card">
+        <div class="left">JEE ADVANCED</div>
+        <div class="right">Updates Coming Soon</div>
+    </div>
+
+    <div class="card">
+        <div class="left">CUET</div>
+        <div class="right">Updates Coming Soon</div>
+    </div>
+
+    <div class="card">
+        <div class="left">IISER</div>
+        <div class="right">Updates Coming Soon</div>
+    </div>
+
+    <div class="card">
+        <div class="left">NISER</div>
+        <div class="right">Updates Coming Soon</div>
+    </div>
+
+</div>
+
+<div class="btns">
+
+    <!-- BACK BUTTON -->
+    <button onclick="window.location.href='index.html'">
+        ⬅ Back
+    </button>
+
+    <!-- NEXT BUTTON -->
+    <button onclick="window.location.href='dashboard.html'">
+        Next ➡
+    </button>
+
+</div>
+
+</body>
+</html>

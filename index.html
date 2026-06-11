@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PREPNOVA - Announcements</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#cae2ea,#e5e8ec);
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding:40px;
+}
+
+.container{
+    width:100%;
+    max-width:900px;
+}
+
+/* Logo */
+.logo-box{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.logo-box img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Title */
+.title{
+    text-align:center;
+    font-size:55px;
+    font-weight:bold;
+    color:#1a0101;
+    margin-top:10px;
+}
+
+/* Page counter */
+.page-no{
+    text-align:center;
+    margin-top:10px;
+    font-size:18px;
+    font-weight:bold;
+    color:#333;
+}
+
+/* Description */
+.desc{
+    margin-top:20px;
+    background:rgb(239,233,196);
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    font-size:18px;
+    line-height:1.6;
+    color:#222;
+    text-align:center;
+}
+
+/* Announcement Section */
+.section-title{
+    margin-top:40px;
+    font-size:30px;
+    text-align:center;
+    color:#222;
+    font-weight:bold;
+}
+
+.announcement-box{
+    margin-top:20px;
+    background:rgb(239,233,196);
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.announcement{
+    padding:15px;
+    border-radius:12px;
+    background:white;
+    margin-bottom:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    font-size:16px;
+}
+
+.tag{
+    display:inline-block;
+    background:#d4d006f3;
+    padding:5px 10px;
+    border-radius:8px;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+/* Footer */
+.footer{
+    text-align:center;
+    margin-top:30px;
+    color:#444;
+    font-style:italic;
+}
+
+/* Button */
+.btn-container{
+    text-align:center;
+    margin-top:40px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:12px;
+    background:#d4d006f3;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+    background:#c5c105;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LOGO -->
+    <div class="logo-box">
+        <img src="icon.jpeg" alt="PREPNOVA Logo">
+    </div>
+
+    <!-- TITLE -->
+    <div class="title">PREPNOVA</div>
+
+    <!-- PAGE NUMBER -->
+    <div class="page-no">Page 1 / 4</div>
+
+    <!-- DESCRIPTION -->
+    <div class="desc">
+         Welcome to <b>PREPNOVA</b> — a dedicated platform for competitive exam guidance.  
+        We aim to support students across <b>West Bengal</b> with high-quality study resources, 
+        exam updates, and scholarship information.  
+
+        Our mission is to simplify preparation for exams like <b>JEE, NEET, WBJEE, IISER, NISER</b> 
+        and other competitive pathways while also keeping students updated with important 
+        opportunities and notifications.  
+
+        Stay connected with us for regular updates, strategies, and announcements that help you 
+        achieve your academic goals.
+    </div>
+
+    <!-- ANNOUNCEMENTS -->
+    <div class="section-title">📢 Latest Announcements</div>
+
+    <div class="announcement-box">
+
+        <div class="announcement">
+            <div class="tag">WBJEE</div><br>
+            Results will be out shortly. Stay updated.
+        </div>
+
+        <div class="announcement">
+            <div class="tag">JEE / NEET</div><br>
+            Update coming soon.
+        </div>
+
+        <div class="announcement">
+            <div class="tag">SCHOLARSHIP</div><br>
+            Scholarship updates will be posted soon.
+        </div>
+
+        <div class="announcement">
+            <div class="tag">PREPNOVA</div><br>
+            More features coming soon.
+        </div>
+
+    </div>
+
+    <!-- NEXT BUTTON -->
+    <div class="btn-container">
+        <button onclick="window.location.href='exams.html'">
+            Next ➡
+        </button>
+    </div>
+
+    <div class="footer">
+        “Success is built one step at a time.”
+    </div>
+
+</div>
+
+</body>
+</html>

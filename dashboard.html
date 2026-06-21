@@ -155,6 +155,37 @@ button:hover{
     border-radius:20px;
     box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
+.pdf-box{
+    background:white;
+    padding:18px;
+    border-radius:15px;
+    margin-top:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.12);
+}
+
+.pdf-title{
+    font-size:18px;
+    color:#1f3a5f;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.download-btn{
+    display:inline-block;
+    background:#d4d006f3;
+    color:#222;
+    text-decoration:none;
+    padding:12px 22px;
+    border-radius:12px;
+    font-weight:bold;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.download-btn:hover{
+    background:#c5c105;
+    transform:translateY(-3px);
+}
 </style>
 
 </head>
@@ -171,9 +202,21 @@ button:hover{
 <div class="section">
     <div class="notice-board">
         <div class="notice-title">📢 Notice Board</div>
-        <div class="notice-space" contenteditable="true">
-            latest announcements comming soon...
-        </div>
+        <div class="pdf-box">
+
+    <div class="pdf-title">
+        📄 RE-NEET 2026 Question Paper is available here
+    </div>
+
+    <a href="RE NEET 2026.pdf"
+       download
+       class="download-btn">
+
+       ⬇ Download PDF
+
+    </a>
+
+</div>
     </div>
 </div>
 
@@ -209,9 +252,42 @@ button:hover{
 <div class="section">
     <div class="roadmap">
         <div class="roadmap-title">🧭 Roadmap & Planning</div>
-        <div class="roadmap-space" contenteditable="true">
-             preparation roadmap, schedule, and strategies coming soon...
+        <div class="roadmap-space">
+
+    <div class="pdf-box">
+
+        <div class="pdf-title">
+            🧭 JEE Roadmap PDF for Student's Personal Use
         </div>
+
+        <a href="jeemapf.pdf"
+           download
+           class="download-btn">
+
+           ⬇ Download PDF
+
+        </a>
+
+    </div>
+
+
+    <div class="pdf-box">
+
+        <div class="pdf-title">
+            🩺 NEET Roadmap PDF for Student's Personal Use
+        </div>
+
+        <a href="neetmapf.pdf"
+           download
+           class="download-btn">
+
+           ⬇ Download PDF
+
+        </a>
+
+    </div>
+
+</div>
     </div>
 </div>
 

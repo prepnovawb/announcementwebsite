@@ -103,6 +103,39 @@ button:hover{
     transform:scale(1.05);
     background:#c5c105;
 }
+.card{
+    background:rgb(239,233,196);
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    transition:0.3s;
+    cursor:pointer;
+    text-align:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:140px;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.exam-name{
+    font-size:28px;
+    font-weight:900;
+    color:#111;
+    letter-spacing:1px;
+    margin-bottom:10px;
+}
+
+.exam-update{
+    font-size:15px;
+    color:#555;
+    font-weight:600;
+}
 </style>
 
 </head>
@@ -119,44 +152,42 @@ button:hover{
 
 <div class="card-container">
 
-    <div class="card">
-        <div class="left">WBJEE</div>
-        <div class="right">Updates Coming Soon</div>
-    </div>
+    <div class="card" onclick="window.location.href='wbjee.html'">
+    <div class="exam-name">WBJEE</div>
+</div>
 
-    <div class="card">
-        <div class="left">JEE MAINS</div>
-        <div class="right">Updates Coming Soon</div>
-    </div>
+<div class="card" onclick="window.location.href='jeemains.html'">
+    <div class="exam-name">JEE MAINS</div>
+</div>
 
-    <div class="card">
-        <div class="left">NEET</div>
-        <div class="right">Updates Coming Soon</div>
-    </div>
+<div class="card" onclick="window.location.href='neet.html'">
+    <div class="exam-name">NEET</div>
+</div>
 
-    <div class="card">
-        <div class="left">JEE ADVANCED</div>
-        <div class="right">Updates Coming Soon</div>
-    </div>
+<div class="card" onclick="window.location.href='jeeadvanced.html'">
+    <div class="exam-name">JEE ADVANCED</div>
+    <div class="exam-update">Updates Coming Soon</div>
+</div>
 
-    <div class="card">
-        <div class="left">CUET</div>
-        <div class="right">Updates Coming Soon</div>
-    </div>
+<div class="card" onclick="window.location.href='cuet.html'">
+    <div class="exam-name">CUET</div>
+    <div class="exam-update">Updates Coming Soon</div>
+</div>
 
-    <div class="card">
-        <div class="left">IISER</div>
-        <div class="right">Updates Coming Soon</div>
-    </div>
+<div class="card" onclick="window.location.href='iiser.html'">
+    <div class="exam-name">IISER</div>
+    <div class="exam-update">Updates Coming Soon</div>
+</div>
 
-    <div class="card">
-        <div class="left">NISER</div>
-        <div class="right">Updates Coming Soon</div>
-    </div>
-    <div class="card">
-        <div class="left">JENPAS(UG)</div>
-        <div class="right">Updates Coming Soon</div>
-    </div>
+<div class="card" onclick="window.location.href='niser.html'">
+    <div class="exam-name">NISER</div>
+    <div class="exam-update">Updates Coming Soon</div>
+</div>
+
+<div class="card" onclick="window.location.href='jenpas.html'">
+    <div class="exam-name">JENPAS (UG)</div>
+    <div class="exam-update">Updates Coming Soon</div>
+</div>
 
 </div>
 
